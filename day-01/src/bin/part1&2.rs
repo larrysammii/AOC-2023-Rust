@@ -10,7 +10,7 @@
 
 fn main() {
     let input =
-        std::fs::read_to_string("././input/input.txt")
+        std::fs::read_to_string("./day-01/input/input.txt")
             .unwrap();
 
     let lines = input
